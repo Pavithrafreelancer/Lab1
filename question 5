@@ -7,6 +7,6 @@ scanf("%d%d",&a,&b);
 a=a+b;
 b=a-b;
 a=a-b;
-printf("a=%d\rb=%d",a,b);
+printf("a=%d\nb=%d",a,b);
 return 0:
 }
