@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+float v,u,a,t,s,T,b,c,p:
+printf("Enter u,a,t");
+scanf("%f%f%f",&u,&a,&t);
+printf("V=%f\n",u+a*t);
+printf("S=%f\n",u*t+0.5*a*t*t);
+printf("Enter a,b,c");
+scanf("%f%f%f",&a,&b,&c);
+printf("T=%f\n",2*a+sqrt(b)+9*c);
+printf("H=%f", sqrt(pow(b,2)+pow(p,2)));
+return 0;
+}
+
