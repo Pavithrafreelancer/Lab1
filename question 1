@@ -1,0 +1,12 @@
+#include <stdio.h>
+ int main()
+{
+int a,b;
+printf("Enter values of a and b");
+scanf("%d%d",&a,&b);
+printf("Addition of %d and %d is %d\n",a,b,a+b);
+printf("Difference of %d and %d is %d\n",a,b.a-b);
+printf("Product of %d and %d is %d\n",a,b,a*b);
+printf("Division of %d and %d is %d\n",a,b,a/b);
+return 0;
+ }
