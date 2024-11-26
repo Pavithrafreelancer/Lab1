@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+float m,g,h,v;
+printf("Enter mass,gravity,height,velocity");
+scanf("%f%f%f%f",&m,&g,&h,&v);
+printf("Mechanical Energy =%1",m*g*h+0.5*m*v*v);
+return 0;
+}
