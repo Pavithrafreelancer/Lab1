@@ -1,9 +1,9 @@
  #include<stdio.h>
 int main()
 {
-int r:
+int r;
 printf("Enter the value of radius");
 scanf("%d",&г);
-printf("Area of the circle is %f", 3.14**r); 3.14);
+printf("Area of the circle is %f", 3.14**r);
 return 0;
 }
