@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+float p,r,t,n;
+printf("Enter Principle, Rate of interest, Time ");
+scanf("%f%f%f",&p,&r,&t);
+printf("Simple Interest %f \n", (p*r*t)/100);
+printf("Enter p,r,n,t");
+scanf("%f%f%f%f",&p,&r,&n,&t);
+printf("Final Amount (compound interest)=%f",p+pow(1+r/n,n*t));
+return 0;
+}
