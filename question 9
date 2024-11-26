@@ -5,6 +5,6 @@ int main()
 float a:
 printf("Enter a value");
 scanf("%f",&a);
-printf("Square root of sh.a.sqrt(a));
+printf("Square root of %f is %f",sqrt(a));
 return 0;
 }
